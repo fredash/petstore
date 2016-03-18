@@ -8,7 +8,7 @@ import javax.persistence.Id;
  
 @Entity
 public class Pet {
-
+ 
     @Id @GeneratedValue(strategy=GenerationType.AUTO) 
     protected Integer id;
     @Column
