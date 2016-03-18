@@ -19,7 +19,7 @@ public class Pet {
     protected String category;
 
 	public Integer getId() {
-		return id;
+		return id; 
 	}
 	public void setId(Integer id) {
 		this.id = id;
@@ -40,7 +40,7 @@ public class Pet {
 		return category;
 	}
 	public void setCategory(String category) {
-		this.category = category;
+		this.category = category; 
 	}
 
 	@Override

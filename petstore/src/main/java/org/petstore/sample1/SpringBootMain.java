@@ -18,7 +18,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableJpaRepositories
 @EnableSwagger2
 public class SpringBootMain { 
-
+ 
 	public static void main(String[] args) throws Exception { 
         SpringApplication.run(SpringBootMain.class, args);
     }
