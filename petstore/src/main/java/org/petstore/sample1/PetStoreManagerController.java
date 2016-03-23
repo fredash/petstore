@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping("/aPetStoreManager")
 public class PetStoreManagerController {
 
+	// petManagement Controller 
 	@RequestMapping(method = RequestMethod.GET)
 	public String home() {
 		return "petManagement.html";
